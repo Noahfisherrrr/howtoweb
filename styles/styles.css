@@ -78,12 +78,7 @@ a{
     max-width:100%;
 }
 /* section card styles */
-/* .article-section{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    margin: 138px auto 0; 
-}*/
+
 section > h1{
     font-family: 'Archy EDT' sans-serif;
     font-size: 40px;
@@ -134,13 +129,14 @@ section > h1{
     text-decoration: underline;
     justify-content: center;
     align-items: center;
-    margin: 56px auto 0;;
+    margin: 56px auto;;
 }
 
 /* footer style */
 footer{
     background-color: #2E2E2E;
     padding: 56px 0;
+    margin-top: 68px;
 }
 .footer-container{
     display: flex;
