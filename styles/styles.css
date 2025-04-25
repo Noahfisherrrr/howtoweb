@@ -139,8 +139,10 @@ section > h1{
     margin-left: .75rem;
 }
 .article-container > a {
-    display: block;
-    margin: 4.5625rem .8125rem 0 25.875rem;
+    display: block;;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
     font-size: 1.5rem;
     color: #707070;
     letter-spacing: 0rem;
