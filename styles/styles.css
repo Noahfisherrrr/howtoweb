@@ -57,7 +57,7 @@ a{
     list-style: none;
     display: flex;
     justify-content: center;
-    gap:0px;
+    gap:0rem;
     padding: 0;
 }
 .nav-list > li{
