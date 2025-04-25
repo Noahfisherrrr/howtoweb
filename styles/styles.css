@@ -1,3 +1,19 @@
+/* external fonts */
+@font-face {
+    font-family: 'ArchyEDT';
+    src: url('../fonts/archyedt-thin-webfont.woff2') format('woff2'),
+        url('../fonts/archyedt-thin-webfont.ttf') format('truetype'),
+        url('../fonts/archyedt-thin-webfont.eot') format('embedded-opentype'),
+         url('../fonts/archyedt-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Zapf Dingbats';
+    src: url('../fonts/ZapfDingbats\ Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
 /* reset */
 *{
 	padding: 0;
@@ -18,22 +34,6 @@ a{
     margin: 0 auto;
 
 }
-/* external fonts */
-@font-face {
-    font-family: 'ArchyEDT';
-    src: url('../fonts/archyedt-thin-webfont.woff2') format('woff2'),
-        url('../fonts/archyedt-thin-webfont.ttf') format('truetype'),
-        url('../fonts/archyedt-thin-webfont.eot') format('embedded-opentype'),
-         url('../fonts/archyedt-thin-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Zapf Dingbats';
-    src: url('../fonts/ZapfDingbats\ Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
 /* Header styles */
 
 .header-div{
@@ -92,6 +92,8 @@ a{
     margin:3.7475rem auto;
 }
 .slider-img{
+    width: 102.5rem;
+    height: 38.3125rem;
     max-width:100%;
 }
 /* section card styles */
@@ -99,7 +101,6 @@ a{
 section > h1{
     font-family: "ArchyEDT", Arial, sans-serif;
     font-weight: 100;
-
     font-size: 2.5rem;
     color: #707070;
     letter-spacing: .025rem;
@@ -121,7 +122,8 @@ section > h1{
     box-shadow: 0px .1875rem .375rem #00000029; 
 }
 .article-container > img {
-    width: 100%;
+    width: 30.1875rem;
+    height: 17.625rem;
     max-width: 100%;
 }
 .article-container > h2 {
@@ -144,7 +146,7 @@ section > h1{
     margin-left: .75rem;
 }
 .article-container > a {
-    display: block;
+    display: inline-block;
     margin: auto .8125rem 2.1875rem auto;
     font-size: 1.5rem;
     letter-spacing: 0rem;
@@ -198,7 +200,6 @@ footer{
 }
 .footer-address {
     box-sizing: border-box;
-
     /* max-width: 100%; */
     margin-left:auto;
  
